@@ -1,0 +1,30 @@
+#include<stdio.h>
+
+int main()
+{
+    int sum, sub, mul, firstNumber, secondNumber;
+    float div;
+
+    printf("AKHIL HAMAL\t");
+    
+    //Taking inputs
+    printf("Enter first number:");
+    scanf("%d", & firstNumber);
+
+    printf("Enter second number:");
+    scanf("%d", & secondNumber);
+
+    //calculation
+    sum = firstNumber + secondNumber;
+    sub = firstNumber - secondNumber;
+    mul = firstNumber * secondNumber;
+    div = firstNumber / secondNumber;
+
+    //printing results
+    printf("The sum is:%d", sum);
+    printf("The sub is:%d", sub);
+    printf("The mul is:%d", mul);
+    printf("The div is:%.2f", div);
+
+    return 0;
+}
