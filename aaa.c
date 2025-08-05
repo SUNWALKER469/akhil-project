@@ -1,0 +1,46 @@
+//WAP to print all odd numbers from 1 to 100 using for, while and do while loop
+#include<stdio.h>
+
+int main() 
+{
+    int i;
+    
+    printf("Akhil Hamal\n");
+
+    // Using for loop
+    printf("odd numbers using for loop:\n");
+    for(i = 1; i <= 20; i ++) {
+    	if(i%2!=0){
+		
+        printf("%d ", i);
+    	} //even
+    }
+	
+	printf("\n\n");
+
+    // Using while loop
+    printf("odd numbers using while loop:\n");
+    i = 1;
+    while(i <= 20) {
+    	if(i%2 != 0) {
+			printf("%d ", i);
+		}	
+        i++;
+    }
+
+    printf("\n\n");
+
+    // Using do...while loop
+    printf("odd numbers using do...while loop:\n");
+    i = 1;
+    do {
+    	if(i%2 != 0) {
+        	printf("%d ", i);
+		}
+        i++;
+    } while(i <= 20);
+
+    printf("\n");
+
+    return 0;
+}
