@@ -1,17 +1,9 @@
-//WAP to find if its monday or its raining using OR operation
+//Matrix Subtraction
 #include<stdio.h>
 #include<math.h>
 
 int main()
 {
-<<<<<<< HEAD:sub.c
-	int isMonday = 0;
-	int isRaining = 1;
-	printf("Akhil Hamal\n");
-	printf("The result is:%d\n", isMonday || isRaining);
-	return 0;
-}
-=======
     int a[3][3], b[3][3], sub[3][3] ;
     int rows, cols;
     
@@ -67,4 +59,4 @@ int main()
     
     return 0;
 }
->>>>>>> 4c6bcefa15c59a543dd8a46a30e0a28762386ea6:Matrix Subtraction
+
