@@ -1,7 +1,7 @@
 // Different data types in C programming
 #include<stdio.h>
 
-void main()
+int main()
 {
 	int A;
 	signed int B;
@@ -41,5 +41,6 @@ void main()
 	printf("The required character is:%s\n", Name);
 	printf("The required double is:%lf\n", F);
 	printf("The required long double is:%Lf\n", G);
-	getch();
+	
+	return 0;
 }
