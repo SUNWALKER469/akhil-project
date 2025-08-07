@@ -17,7 +17,7 @@ int main(){
 	printf("Subtraction of two number is:%d\n", sub);
 	printf("Multiplication of two number is:%d\n", mul);
 	printf("Division of two number is:%d\n", div);
-	printf("Modulous of two number is:%d\n", mod);
+	printf("Modulus of two number is:%d\n", mod);
 	
 	return 0;
 }
