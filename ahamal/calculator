@@ -5,7 +5,7 @@ int main()
     int sum, sub, mul, firstNumber, secondNumber;
     float div;
 
-    printf("AKHIL HAMAL\t");
+    printf("AKHIL HAMAL\n");
     
     //Taking inputs
     printf("Enter first number:");
