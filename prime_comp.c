@@ -20,10 +20,11 @@ int main()
 			count++;
 		}
 	}
-	if (count==2) { //prime number has 2 factors i.e 2 has factor 1 and 2
+	
+	if (count==2)  //prime number has 2 factors i.e 2 has factor 1 and 2
 		printf("prime");
-	} else {
+	else
 		printf("composite"); //composite number has more than 2 factors i.e. 6 has factor 1, 2, 3, and 6
-	}
+
 	return 0;
 }
