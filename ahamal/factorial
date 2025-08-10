@@ -1,19 +1,18 @@
 //WAP to print the factorial of a number n.
 #include<stdio.h>
+#include<math.h>
 
 int main()
 {
-	int n, fact;
-	printf("Akhil Hamal\n");
-	
+	int n;
 	printf("Enter a number:");
 	scanf("%d", &n);
 	
-        fact = 1;
-	for(int i=1; i<=n; i++){
+	int fact = 1;
+	for(int i=1; i<=n; i++) {
 		fact = fact*i;
 	}
-	printf("The factoriral is %d", fact);
-	
+	printf("The final factorial is %d", fact);
 	return 0;
+	
 }
