@@ -2,7 +2,7 @@
 
 int main()
 {
-    int sum, sub, mul, firstNumber, secondNumber;
+    int sum, sub, mul, mod, firstNumber, secondNumber;
     float div;
 
     printf("AKHIL HAMAL\n");
@@ -19,12 +19,14 @@ int main()
     sub = firstNumber - secondNumber;
     mul = firstNumber * secondNumber;
     div = firstNumber / secondNumber;
+    mod = firstNumber % secondNumber;
 
     //printing results
-    printf("The sum is:%d", sum);
-    printf("The sub is:%d", sub);
-    printf("The mul is:%d", mul);
-    printf("The div is:%.2f", div);
+    printf("The sum is:%d\n", sum);
+    printf("The sub is:%d\n", sub);
+    printf("The mul is:%d\n", mul);
+    printf("The div is:%.2f\n", div);
+    printf("The mod is:%d\n", mod);
 
     return 0;
 }
