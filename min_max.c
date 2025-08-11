@@ -1,31 +1,30 @@
-//program that finds min and max among 10 nums
+//program that finds min and max among 10 integer values in an array.
 #include <stdio.h>
 
 int main() {
-    int numbers[10];
+    int arr[10];
     int i, max, min;
 
     // Input 10 numbers
     printf("Enter 10 integer values:\n");
     for(i = 0; i < 10; i++) {
-        printf("Enter number %d: ", i + 1);
-        scanf("%d", &numbers[i]);
+        scanf("%d", &arr[i]);
     }
 
     // Initialize max and min to the first element
-    max = min = numbers[0];
+    max = min = arr[0];
 
     // Find max and min
     for(i = 1; i < 10; i++) {
-        if(numbers[i] > max)
-            max = numbers[i];
-        if(numbers[i] < min)
-            min = numbers[i];
+        if(arr[i] > max)
+            max = arr[i];
+        if(arr[i] < min)
+            min = arr[i];
     }
 
     // Output results
-    printf("Maximum number = %d\n", max);
-    printf("Minimum number = %d\n", min);
+    printf("Maximum value = %d\n", max);
+    printf("Minimum value = %d\n", min);
 
     return 0;
 }
