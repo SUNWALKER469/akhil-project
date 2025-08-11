@@ -1,18 +1,23 @@
-//WAP to print the factorial of a number n.
+//WAP to calculate the factorial of a number using using for loop.
 #include<stdio.h>
-#include<math.h>
 
 int main()
 {
-	int n;
-	printf("Enter a number:");
-	scanf("%d", &n);
-	
-	int fact = 1;
-	for(int i=1; i<=n; i++) {
-		fact = fact*i;
-	}
-	printf("The final factorial is %d", fact);
-	return 0;
-	
+    int n;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    if (n < 0) {
+        printf("Factorial is not defined for negative numbers.\n");
+    } else {
+    	int fact= 1;
+        for(int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        printf("The factorial is: %d", fact);
+    }
+
+    return 0;
 }
+
