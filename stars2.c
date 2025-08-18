@@ -1,3 +1,9 @@
+//WAP to print the following pattern of stars.
+    *
+   **
+  ***
+ ****
+*****
 #include <stdio.h>
 
 int main() {
