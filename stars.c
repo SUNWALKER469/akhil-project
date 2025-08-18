@@ -1,4 +1,9 @@
 // Program to print the pattern of the stars
+*
+**
+***
+****
+*****
 #include<stdio.h>
 int main(){
 	int i, j;
