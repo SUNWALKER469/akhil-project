@@ -1,4 +1,4 @@
-//WAP to print the table of 2.
+//WAP to print the table of any number.
 #include<stdio.h>
 
 int main() {
