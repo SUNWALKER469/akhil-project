@@ -3,7 +3,7 @@
 
 int main() {
     int n, i;
-    int fact = 1; // factorial can be large, so use long long
+    int fact = 1; //taking 1 instead of 0 makes the factorial non-negative
 
     printf("Enter a number: ");
     scanf("%d", &n);
